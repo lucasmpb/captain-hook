@@ -1,4 +1,4 @@
-#sudo ruby hook.rb
+#sudo nohup ruby hook.rb -o 0.0.0.0 &
 
 require 'sinatra'
 require 'json'
